@@ -32,3 +32,5 @@ def log_parser(log_file_path, output_file_path):
             for result_line in result:
                 outfile.write(result_line + '\n')
             outfile.write('\n')
+    infile.close()
+    outfile.close()
